@@ -4,6 +4,7 @@ import logo from '../../assets/logo.svg'
 import user from '../../assets/User.svg'
 import cart from '../../assets/cart.svg'
 import search from '../../assets/search.svg'
+import { CiMenuFries } from "react-icons/ci";
 
 
 
@@ -30,6 +31,7 @@ function Navbar() {
                 </div>
                 <div className="user">
                     <img src={user} alt="" />
+                    <CiMenuFries />
                 </div>
             </div>
         </nav>

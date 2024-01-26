@@ -66,3 +66,38 @@ nav{
     font-size: 1.5vw;
     margin-left: 4.5vw;
 }
+
+.cart>img,.user>img,.search-panel>img{
+    width: 1.5vw;
+}
+
+@media (max-width:760px) {
+    .links{
+        display: none;
+    }
+    nav{
+        margin-top: 5vw;
+    }
+    .logo>img{
+        width: 18vw;
+    }
+    .cart,.user>img{
+        display: none;
+    }
+
+    .user{
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .side-panel{
+        width: 40%;
+    }
+    .search-panel{
+        width: 27vw;
+        height: 5vw;
+    }
+    .search-panel>img{
+        width: 3vw;
+    }
+}

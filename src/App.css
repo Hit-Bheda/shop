@@ -18,3 +18,9 @@ html, body{
   overflow-x: hidden;
   background: #E8E8E8;
 }
+
+@media (max-width:768px) {
+  .page2{
+    display: none;
+  }
+}
