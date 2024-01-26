@@ -1,0 +1,98 @@
+.page2{
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 1vw;
+}
+
+.box1,.box2{
+    width: 50%;
+    height: 100%;
+}
+
+.box1{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw;
+    /* background: red; */
+}
+.box2{
+    /* background: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 1vw; */
+}
+
+.g1,.g2,.g3{
+    /* width: 98%; */
+    height: 31%;
+    /* background: green; */
+    border-radius: 1vw;
+    overflow: hidden;
+}
+
+.g3{
+    height: 38%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.g1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    height: 25%;
+    /* background: green; */
+    border-radius: 1vw;
+    /* overflow: hidden; */
+}
+
+.g2{
+    width: 98%;
+    height: 28%;
+}
+.heading-text{
+    width: 49%;
+    height: 100%;
+    /* background: violet; */
+    font-size: 5vw;
+}
+.description{
+    width: 49%;
+    height: 100%;
+    /* background: turquoise; */
+    font-size: 1.2vw;
+}
+
+.g4{
+    width: 96%;
+    height: 68%;
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.g5{
+    width: 98%;
+    height: 30%;
+}
+
+.card1,.card2{
+    width: 48%;
+    height: 100%;
+}

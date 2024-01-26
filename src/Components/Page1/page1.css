@@ -1,0 +1,107 @@
+.page1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid1{
+    width: 23%;
+    height: 100%;
+    /* background: red; */
+    position: relative;
+}
+.grid2{
+    width: 56%;
+    height: 100%;
+    /* background: rgb(0, 38, 255); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.grid3{
+    width: 23%;
+    height: 100%;
+    /* background: rgb(174, 0, 255); */
+}
+
+.hero{
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: #000; */
+    width: 95%;
+    height: 85vh;
+}
+
+.img1{
+    width: 18vw;
+    margin-left: 3vw;
+}
+
+.img2{
+    width: 18vw;
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+
+.img3{
+    width: 18vw;
+    margin-left: 3vw;
+}
+
+.img4{
+    width: 18vw;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+}
+
+.sub-grid1>h1{
+    font-weight: 500;
+    /* background: yellow; */
+    width: 45vw;
+    font-size: 5.3vw;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.sub-grid1{
+    /* background: rgb(9, 255, 0); */
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-grid2{
+    /* background:aquamarine; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+}
+
+.sub-grid2>p{
+    width: 25vw;
+    /* background-color: brown; */
+    font-size: 1vw;
+    text-align: center;
+}
+
+.sub-grid2>button{
+    padding: .6vw 1.5vw;
+    border-radius: .5vw;
+    margin-top: 2vw;
+    background: #7DB68E;
+    font-size: 1vw;
+    border: none;
+    outline: none;
+}
