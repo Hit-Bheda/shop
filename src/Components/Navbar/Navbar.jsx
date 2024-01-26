@@ -31,7 +31,10 @@ function Navbar() {
                 </div>
                 <div className="user">
                     <img src={user} alt="" />
+                    <div className="menu">
+
                     <CiMenuFries />
+                    </div>
                 </div>
             </div>
         </nav>

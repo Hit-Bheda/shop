@@ -70,8 +70,13 @@ nav{
 .cart>img,.user>img,.search-panel>img{
     width: 1.5vw;
 }
-
+.menu{
+    display: none;
+}
 @media (max-width:760px) {
+    .menu{
+        display: block;
+    }
     .links{
         display: none;
     }
