@@ -1,0 +1,60 @@
+.banner{
+    width: 95vw;
+    height: 18vw;
+    background: #FF7E6D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 4vw; 
+    border-radius: 1vw;
+}
+
+.sg1{
+    /* background: yellow; */
+    height: 100%;
+    width: 40%;
+    background: url(../../assets/laptop.png) no-repeat;
+    background-size:contain;
+    background-position-x: center;
+}
+
+.h1{
+    font-size: 6vw;
+    color: #fff;
+    line-height: 1;
+}
+
+.p{
+    font-size: 1vw;
+    color: #fff;
+
+}
+
+.sg2{
+    /* background: firebrick; */
+    width: 40%;
+    height: 100%;
+}
+
+.sg2>h1,.sg2>p{
+    color: #fff;
+
+}
+
+.sg2>h1{
+    font-size: 6vw;
+    font-weight: 500;
+}
+
+.sg2>p{
+    font-size: 1vw;
+    width: 60%;
+}
+
+.sg2>button{
+    padding: .5vw 1vw;
+    outline: none;
+    border: none;
+    border-radius: .7vw;
+    margin-top: 1vw;
+}

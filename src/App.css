@@ -17,10 +17,8 @@ html, body{
 .main{
   overflow-x: hidden;
   background: #E8E8E8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media (max-width:768px) {
-  .page2{
-    display: none;
-  }
-}

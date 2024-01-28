@@ -40,10 +40,10 @@ function Page2() {
                <div className="box2">
                     <div className="g4">
                         <div className="card1">
-                            <Card img={chair} width='13vw' sttl='Ferniture' bttl='White Wooden Chair Elegance' price='20'/>
+                            <Card img={chair} width='13vw' sttl='Ferniture' bttl='White Wooden Chair Elegance' price='20' cardWidth='98%'/>
                         </div>
                         <div className="card2">
-                            <Card img={phone} width='20vw' sttl='Electronics' bttl='I-Phone 11' price='20'/>
+                            <Card img={phone} width='20vw' sttl='Electronics' bttl='I-Phone 11' price='20' cardWidth='98%'/>
                         </div>
                     </div>
                     <div className="g5">

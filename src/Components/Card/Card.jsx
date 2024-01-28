@@ -6,7 +6,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 function Card(props) {
   return (
     <>
-        <div className="card">
+        <div className="card" style={{width:props.cardWidth}}>
             <div className="top-card">
                 <div className="ls">
                     <div className="gbtn"></div>
